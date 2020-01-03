@@ -1,0 +1,33 @@
+body {
+  top: 0;
+  left: 0;
+  margin: 0;
+}
+
+.main {
+  width: 100vw;
+  height: 100vh;
+}
+
+.top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 10px;
+  height: 8vh;
+  width: 100vw;
+  border: 1px dotted black;
+}
+
+.bottom {
+  height: 80vh;
+  width: 100vw;
+}
+
+form {
+  padding-top: 5px;
+}
+/*# sourceMappingURL=styles.css.map */

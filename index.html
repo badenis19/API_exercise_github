@@ -1,17 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/styles.css">
     <title>API test</title>
 </head>
+
 <body>
-    <h1 class="test">TESTO</h1>
-    <form>
-        Enter Github username:<br>
-        <input id="gitname" type="text" name="firstname"><br>
-    </form>
+    <div class="main">
+        <div class="top">
+            <form id="form1" onSubmit="return false;">
+                <p>Github username:</p>
+                <input type="text" id="userid" ><br>
+                <input type="submit">
+            </form>
+
+            <!-- <button onclick="getPosts()" class="submit" type="submit" form="form1" value="Submit">Submit</button> -->
+        </div>
+
+        <div class="bottom">
+            <h1>Repositories</h1>
+            <ul class="repoList">
+            </ul>
+        </div>
+    </div>
     <script src="./index.js"></script>
 </body>
+
 </html>
