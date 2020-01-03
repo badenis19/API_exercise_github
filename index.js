@@ -42,6 +42,7 @@ if (userInput) {
     })
 }
 
+// ---> to filter result of search <---
 // const getUsers = async () => {
 //     const res = await fetch(`https://api.github.com/users`);
 //     const users = await res.json();
@@ -49,7 +50,3 @@ if (userInput) {
 //     result = users.filter((user) => user.site_admin === false );
 //     console.log(result)
 // }
-
-// getUsers();
-
-// const result = words.filter(word => word.length > 6);
